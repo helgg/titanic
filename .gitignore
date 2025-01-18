@@ -1,0 +1,56 @@
+# Arquivos e diretórios de ambientes virtuais
+venv/
+.env/
+*.venv
+env/
+*.env
+
+# Arquivos de configurações específicas do sistema
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.log
+
+# Arquivos gerados por IDEs
+.vscode/
+.idea/
+*.swp
+
+# Arquivos de pacotes instalados
+*.egg
+*.egg-info/
+dist/
+build/
+*.wheel
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Configurações de testes
+.coverage
+.tox/
+.cache/
+.nox/
+
+# Arquivos de banco de dados locais
+*.sqlite3
+
+# Arquivos de configuração do Jupyter
+.ipynb_checkpoints/
+
+# Arquivos de logs
+logs/
+*.log
+
+# Arquivos de entrada ou saída de execução
+*.out
+*.err
+
+# Arquivos específicos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
